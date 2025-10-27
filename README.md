@@ -4,3 +4,4 @@ Things to do before applying:
 1) Imply path to repository (X)
 2) Create and display path to folder for results (Y) and summary (Z)
 3) Find suitable threshold for your analysis (a-> lower threshold; b upper threshold)
+4) Let's go
