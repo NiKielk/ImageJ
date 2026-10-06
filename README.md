@@ -1,5 +1,4 @@
-Macro which finds your repository and analyzes all the images within it. For first analyzing step, user application is required (drawing the ROI where bacterial burden should be counted -> exclude autofluorescence in e.g. eye or yolk sack).
-Afterwards, a threshold is applied to image and particles are created with remaining signal. Intensity and area of particles are measured, saved automatically in a folder created by the user in csv formate (results-> every singe particle; summary-> all particle ssummed up).
+ImageJ/Fiji macro for automated bacterial burden quantification in fluorescence microscopy images. The macro processes all TIFF images in a user specified directory. For each image, the user manually defines the region of interest to exclude areas with autofluorescence, such as the eye or yolk sac. A user defined intensity threshold is then applied to identify bacterial fluorescence signal. Detected particles are analyzed for intensity and morphological parameters, including area, mean intensity, integrated intensity and shape descriptors. Individual particle measurements and image level summaries are automatically exported as CSV files.
 Things to do before applying: 
 1) Imply path to repository (X)
 2) Create and display path to folder for results (Y) and summary (Z)
